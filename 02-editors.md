@@ -68,8 +68,7 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I'm using Sublime. I had been using IDLE and was quite used to it. But I guess Sublime should be more customizable. I chose it based on its popularity for new coders. I found keyboard shortcuts for distraction free environment, command pallete and multi-search edit. 
-
+>> I'm using Sublime. I had been using IDLE and was quite used to it. But I guess Sublime should be more customizable. I chose it based on its popularity for new coders. I found keyboard shortcuts for distraction free environment, command pallete and multi-search edit.  
 You customize the editor mostly by installing different packages. I'm going to read through some online guides and customize Sublime. It seems it will be easier to master the shortcuts when I have some 'real world' python exercises to work on.
 
  
