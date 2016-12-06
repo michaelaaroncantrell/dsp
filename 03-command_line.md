@@ -78,7 +78,15 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -R = displays subdirectories as well
+
+> > ls -m = displays as comma separated list
+
+> > ls -a = displays all files
+
+> > ls -1 = displays one entry per line
+
+> > ls -c = displays by timestamp 
 
 ---
 
