@@ -9,8 +9,40 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd = prints the directory you are currently in
 
+> > mkdir = makes a new directory
+
+> > cd = the way to move between directories
+
+> > ls = list directory. what directories lie in the current directory
+
+> > rmdir = remove directory. this won't work if the directory has other files in it, unless you override with 'rm -rf'. careful! you lose the contents inside the directory
+
+> > rm = remove file
+
+> > cp = copy a file or directory. you can specify where to put the copy
+
+> > mv = move a file or directory. really just renaming, but deletes the current instance
+
+> > less = read through a file using space and w to page down and up
+
+> > cat = read the whole file. prints in terminal. may include multiple files
+
+> > xargs = takes input and executes specified function on the input. see example of deleting all .txt files below
+
+> > find = find files. the wildcard * is useful here, e.g. to find all text files.
+
+> > grep = find lines containing a string (or not containing the string) in specified files
+
+> > man = this followed by a command jumps to the manual chapter describing said command
+
+> > echo = print some arguments
+
+> > | = pipes from left to right
+
+> > < = sends input from left to program on right
+> > > = sends output from left to program on right
 ---
 
 ###Q2.  List Files in Unix   
