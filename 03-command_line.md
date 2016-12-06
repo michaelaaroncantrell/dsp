@@ -98,7 +98,7 @@ What does `xargs` do? Give an example of how to use it.
 
 > > find . -name "*.txt" | xargs rm 
 
-> > will remove all of the files in the current directory that end in '.txt'. xargs takes the output of the find command as input, and executes rm on it.
+> > will remove all of the files in the current directory that end in '.txt'. xargs takes the output of the find command as input, and executes rm on it. 
 
  
 
