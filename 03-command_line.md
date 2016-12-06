@@ -25,11 +25,17 @@ What do the following commands do:
 `ls -Glp`  
 
 > > `ls`     = lists subdirectories of current directory 
+
 > >`ls -a`  = lists subdirectories of current directory, including those that begin with '.'
+
 > >`ls -l`   = long list. includes information like date last updated, number of subdirectories in each directory.
+
 > >`ls -lh`  = lists subdirectories, one on each line
+
 > >`ls -lah` = lists subdirectories, including those beginning with '.', one on each line
+
 > >`ls -t`   = lists subdirectories, sorted by time modified, most recently modified first
+
 > >`ls -Glp` = lists subdirectories, one per line, with color.
 
 ---
