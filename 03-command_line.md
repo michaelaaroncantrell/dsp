@@ -42,7 +42,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > | = pipes from left to right
 
 > > < = sends input from left to program on right
+
 > > > = sends output from left to program on right
+
 ---
 
 ###Q2.  List Files in Unix   
