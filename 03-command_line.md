@@ -52,11 +52,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > xargs takes input and executes it. for example: 
+> > xargs takes input and executes specified functions on that input. for example: 
 
 > > find . -name "*.txt" | xargs rm 
 
-> > will remove all of the files in the current directory that end in '.txt'. xargs takes the output of the find command, and executes rm on it.
+> > will remove all of the files in the current directory that end in '.txt'. xargs takes the output of the find command as input, and executes rm on it.
 
  
 
