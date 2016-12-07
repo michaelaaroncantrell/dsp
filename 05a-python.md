@@ -31,6 +31,7 @@ How are Python lists and sets similar and different? Give examples of using both
 >> You might use a list to enter your students' test scores, so that you can sort them. If you want to compare which countries you and your friends have been to, you might create a set for each person.
 
 >> Sets are considerably faster for determining membership because they use 'hashing', which I haven't tried to understand.
+
 ---
 
 ###Q3. Lambda Function
@@ -82,6 +83,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >> Set comprehension: ${x for x in range(10) if x%3!=0}
 
 >> Dictionary comprehension: ${k:v for k,v in [(i,i**2) for i in range(5)]}
+
 ---
 
 ###Complete the following problems by editing the files below:
