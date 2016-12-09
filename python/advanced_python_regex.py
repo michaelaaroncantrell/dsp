@@ -4,7 +4,7 @@
 #RE for problems like these? What does the code look like?
 
 #####Q1
-g=open('prework/dsp/python/faculty.csv','r')
+g=open('faculty.csv','r')
 xs=g.readlines()
 g.close()
 
