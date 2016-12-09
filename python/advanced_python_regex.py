@@ -1,10 +1,10 @@
 #I have a question: I wanted to practice using Regular Expressions
 #to answer these questions, but using the columns of the .csv file
-#seemed to make the solution below simpler. Is there a reason to prefer 
+#seemed to make the below simpler. Is there a reason to prefer 
 #RE for problems like these? What does the code look like?
 
 #####Q1
-g=open('faculty.csv','r')
+g=open('prework/dsp/python/faculty.csv','r')
 xs=g.readlines()
 g.close()
 
@@ -22,16 +22,14 @@ for i in range(len(l)):
 s={x for x in u}
 dic={d:n for d,n in [(d,u.count(d)) for d in s]}
 
+
 print('There are {0} different degrees.'.format(len(dic.keys())))
 for k in dic.keys():
     print('The degree {0} is held by {1} individual(s)'.format(k,dic[k]))
 
 
 ######Q2
-g=open('faculty.csv','r')
-xs=g.readlines()
-g.close()
-
+######continuing the code from above
 titles=[]
 for i in range(1,len(xs)):
     titles.append(xs[i].split(',')[2])
@@ -49,10 +47,7 @@ for t in dic.keys():
 
 
 ######Q3
-g=open('faculty.csv')
-xs=g.readlines()
-g.close()
-
+######continuing the code from above
 email=[]
 for i in range(1,len(xs)):
     email.append(xs[i].split(',')[3])
@@ -62,16 +57,7 @@ print(l)
 
 
 ######Q4
-g=open('faculty.csv')
-xs=g.readlines()
-g.close()
-
-email=[]
-for i in range(1,len(xs)):
-    email.append(xs[i].split(',')[3])
-
-l=list(map(lambda x: x.replace('\n',''),email)) #Q4 is the same as Q3 to here.
-
+######continuing the code from above
 dom=[]
 for i in range(len(l)):
     dom.append(l[i][l[i].index('@')+1:])
