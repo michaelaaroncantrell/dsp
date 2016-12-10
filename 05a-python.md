@@ -31,6 +31,7 @@ How are Python lists and sets similar and different? Give examples of using both
 >> You might use a list to enter your students' test scores, so that you can sort them. If you want to compare which countries you and your friends have been to, you might create a set for each person.
 
 >> Sets are considerably faster for determining membership because they use 'hashing', which I haven't tried to understand.
+
 ---
 
 ###Q3. Lambda Function
@@ -82,6 +83,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >> Set comprehension: ${x for x in range(10) if x%3!=0}
 
 >> Dictionary comprehension: ${k:v for k,v in [(i,i**2) for i in range(5)]}
+
 ---
 
 ###Complete the following problems by editing the files below:
@@ -95,7 +97,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 937 days
 
 b.  
 ```
@@ -103,7 +105,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> -82 days
 
 c.  
 ```
@@ -111,7 +113,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> 7850 days
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
