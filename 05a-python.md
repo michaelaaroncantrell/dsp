@@ -46,7 +46,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> The next example prints the length of the words in a sentence.
 
->> ```s="This is an example sentence".split()
+>> ```s="This is an example sentence".split()  
 >> print(list(map(lambda word: len(word), s)))``` 
 
 >> Here is an example using 'lambda' in the 'key' argument to 'sorted'. The list is a list of tuples, with a student's name, major, and gpa. The code sorts the students by their gpa, with the highest gpa first.
