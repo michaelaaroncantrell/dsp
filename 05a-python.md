@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> Both lists and tuples are sequences, i.e. they maintain order. So one may index them, e.g. l[1]. Both have membership, concatenation with + and *, and enumerate.
+>> Both lists and tuples are sequences, i.e. they maintain order. So one may index them, e.g. '''l[1]'''. Both have membership, concatenation with + and *, and enumerate.
 
 >> The main difference is that tuples, like strings, are immutable, while lists are mutable. Tuple doesn't have a length function. List has many built in methods, due to its mutability. One of the most prominent is item assignment. Others include, sort, append, insert, count, extend, index and remove.
 
