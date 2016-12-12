@@ -42,19 +42,19 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> The next example prints those numbers from 1 to 24 that are multiples of 3 or 5. 
 
->> print(list(filter(lambda x: x%3==0 or x%5==0 , range(1,25))))
+>> ```print(list(filter(lambda x: x%3==0 or x%5==0 , range(1,25))))```  
 
 >> The next example prints the length of the words in a sentence.
 
->> s="This is an example sentence".split()
+>> ```s="This is an example sentence".split()
 
->> print(list(map(lambda word: len(word), s))) 
+>> print(list(map(lambda word: len(word), s)))``` 
 
 >> Here is an example using 'lambda' in the 'key' argument to 'sorted'. The list is a list of tuples, with a student's name, major, and gpa. The code sorts the students by their gpa, with the highest gpa first.
 
->> students=[('Amy', 'Chemistry', '3.7'), ('Bob', 'Chemistry', '2.2'), ('Carol','Physics','4.0')]
+>> ```students=[('Amy', 'Chemistry', '3.7'), ('Bob', 'Chemistry', '2.2'), ('Carol','Physics','4.0')]
 
->>print(sorted(students, key=lambda student: student[2], reverse=True))
+>>print(sorted(students, key=lambda student: student[2], reverse=True))```
 
 >> We could similarly use key=lambda here to sort by any of the indices in the tuple, e.g. the students in alphabetic order.
 
