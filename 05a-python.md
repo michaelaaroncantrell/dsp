@@ -58,7 +58,7 @@ students=[('Amy', 'Chemistry', '3.7'), ('Bob', 'Chemistry', '2.2'), ('Carol','Ph
 print(sorted(students, key=lambda student: student[2], reverse=True))
 ```
 
->> We could similarly use key=lambda here to sort by any of the indices in the tuple, e.g. the students in alphabetic order.
+>> We could similarly use ```key=lambda``` here to sort by any of the indices in the tuple, e.g. the students in alphabetic order.
 
 ---
 
