@@ -53,9 +53,10 @@ print(list(map(lambda word: len(word), s)))
 >> 
 >> Here is an example using 'lambda' in the 'key' argument to 'sorted'. The list is a list of tuples, with a student's name, major, and gpa. The code sorts the students by their gpa, with the highest gpa first.
 
->> ```students=[('Amy', 'Chemistry', '3.7'), ('Bob', 'Chemistry', '2.2'), ('Carol','Physics','4.0')]
-
->>print(sorted(students, key=lambda student: student[2], reverse=True))```
+>> ```
+students=[('Amy', 'Chemistry', '3.7'), ('Bob', 'Chemistry', '2.2'), ('Carol','Physics','4.0')]
+print(sorted(students, key=lambda student: student[2], reverse=True))
+```
 
 >> We could similarly use key=lambda here to sort by any of the indices in the tuple, e.g. the students in alphabetic order.
 
@@ -67,23 +68,23 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehension is a way to construct a list using a for statement followed by zero or more for and in statements. They read just like mathematics, and are more concise than traversing a list and appending entries one by one.
 
->> For example, $[(i,i**2) for i in range(10)] would create a list of tuples of  numbers from 0 to 9 together with their squares.
+>> For example, ```[(i,i**2) for i in range(10)]``` would create a list of tuples of  numbers from 0 to 9 together with their squares.
 
->> $[(x,y) for x in [1,2,3] for y in [2,3,4] if x!=y] creates a list of all pairs of tuples from the two lists without any 'diagonal' terms, where x and y are equal.
+>> ```[(x,y) for x in [1,2,3] for y in [2,3,4] if x!=y]``` creates a list of all pairs of tuples from the two lists without any 'diagonal' terms, where x and y are equal.
 
->> A list comprehension could be used in place of the following example using 'map'. $map(len, "This is a sentence".split()).
+>> A list comprehension could be used in place of the following example using 'map'. ```map(len, "This is a sentence".split())```.
 
->> Instead, $[len(w) for w in "This is a sentence".split()]
+>> Instead, ```[len(w) for w in "This is a sentence".split()]```
 
->> A list comprehension could be used in place of the following example using 'filter' $list(filter(lambda x: x%2==0,range(1,7)))
+>> A list comprehension could be used in place of the following example using 'filter' ```list(filter(lambda x: x%2==0,range(1,7)))```
 
->> Instead, $[x for x in range(1,7) if x%2==0].
+>> Instead, ```[x for x in range(1,7) if x%2==0]```
 
 >> Comparison: filter and map may be applied to any iterables, e.g. strings, tuples, while list comprehension only works on list. That being said, it seems to me that any filter or map operation on a list could be done with list comprehension. Is this correct? 
 
->> Set comprehension: ${x for x in range(10) if x%3!=0}
+>> Set comprehension: ```{x for x in range(10) if x%3!=0}```
 
->> Dictionary comprehension: ${k:v for k,v in [(i,i**2) for i in range(5)]}
+>> Dictionary comprehension: ```{k:v for k,v in [(i,i**2) for i in range(5)]}```
 
 ---
 
