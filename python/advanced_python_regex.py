@@ -2,7 +2,7 @@
 #to answer these questions, but using the columns of the .csv file
 #seemed to make the below simpler. Is there a reason to prefer 
 #RE for problems like these? What does the code look like? 
-#Note: I ended up using RegEx for the next problem, where it seems more useful
+#Note: I ended up using RegEx for Part III, where it seemed more useful
 
 #####Q1
 g=open('faculty.csv','r')
