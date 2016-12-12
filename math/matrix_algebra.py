@@ -1,4 +1,6 @@
-'''import numpy as np
+'''is this text blocked'''
+
+import numpy as np
 
 A=np.array([[1,2,3],[2,7,4]])
 B=np.array([[1,-1],[0,1]])
