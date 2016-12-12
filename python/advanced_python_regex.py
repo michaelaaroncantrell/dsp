@@ -1,7 +1,8 @@
 #I have a question: I wanted to practice using Regular Expressions
 #to answer these questions, but using the columns of the .csv file
 #seemed to make the below simpler. Is there a reason to prefer 
-#RE for problems like these? What does the code look like?
+#RE for problems like these? What does the code look like? 
+#Note: I ended up using RegEx for the next problem, where it seems more useful
 
 #####Q1
 g=open('faculty.csv','r')
