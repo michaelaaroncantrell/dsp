@@ -1,5 +1,3 @@
-'''is this text blocked'''
-
 import numpy as np
 
 A=np.array([[1,2,3],[2,7,4]])
@@ -32,4 +30,4 @@ for i in range(3):
 print(result)
 
 print(np.dot(A,A.transpose()))
-print(np.dot(D.transpose(),D))'''
+print(np.dot(D.transpose(),D))
