@@ -1,17 +1,7 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> There is clear bias. The mean for the biased pmf is 2.403, compared to 1.024 for the actual pmf.
-```
+>> ```
 import chap01soln
-resp=chap01soln.ReadFemResp()
-
-import thinkplot
-import thinkstats2
-``
-
-
-
-```import chap01soln
 resp = chap01soln.ReadFemResp()
 
 import thinkplot
@@ -37,5 +27,5 @@ print(biasmean)	#2.403
 
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf,biaspmf])
-thinkplot.Show(xlabel='number of kids in household') ```
-
+thinkplot.Show(xlabel='number of kids in household')
+```
