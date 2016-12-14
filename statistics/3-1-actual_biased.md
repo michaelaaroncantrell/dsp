@@ -4,6 +4,9 @@
 ```
 import chap01soln
 resp=chap01soln.ReadFemResp()
+
+import thinkplot
+import thinkstats2
 ``
 
 
