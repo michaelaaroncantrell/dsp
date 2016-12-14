@@ -1,6 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
->>The bias appears to have a real impact. The mean for the bias pmf is 2.403 compared to the actual pmf mean of 1.024.
->>>```
+
+>>```
 import chap01soln
 resp = chap01soln.ReadFemResp()
 
