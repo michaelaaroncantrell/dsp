@@ -1,6 +1,13 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
 >> There is clear bias. The mean for the biased pmf is 2.403, compared to 1.024 for the actual pmf.
+```
+import chap01soln
+resp=chap01soln.ReadFemResp()
+``
+
+
+
 ```import chap01soln
 resp = chap01soln.ReadFemResp()
 
