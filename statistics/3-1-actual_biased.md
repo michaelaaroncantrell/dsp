@@ -29,3 +29,4 @@ print(biasmean)	#2.403
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf,biaspmf])
 thinkplot.Show(xlabel='number of kids in household')
+```
