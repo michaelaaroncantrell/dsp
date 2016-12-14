@@ -17,4 +17,3 @@ pooled_var=(no*varo+nf*varf)/(no+nf)
 d=diff/math.sqrt(pooled_var)
 print("First babies are *lighter* than other babies. Cohen's d is "+ str(d))
 print("The size effect is *larger* for birthweight than for pregnancy length")
-'''
