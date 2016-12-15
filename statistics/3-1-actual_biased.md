@@ -2,7 +2,7 @@
 
 >>The bias makes a real impact. The bias pmf mean is 2.4 compared to the actual pmf mean of 1.0.
 
-```
+```python
 import chap01soln
 resp = chap01soln.ReadFemResp()
 
