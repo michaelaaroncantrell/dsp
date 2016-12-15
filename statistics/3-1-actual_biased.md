@@ -31,4 +31,3 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf,biaspmf])
 thinkplot.Show(xlabel='number of kids in household')
 ```
-
