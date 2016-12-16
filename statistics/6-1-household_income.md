@@ -1,7 +1,7 @@
 [Think Stats Chapter 6 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2007.html#toc60) (household income)
 
 >> The mean is $45455. The median is $51226. In log_10 units, we have Pearson's skew= -0.73, the Skewness= -6.55, and about 45% of households have income below the mean.
->> ```python
+```python
 import numpy as np
 
 import hinc
