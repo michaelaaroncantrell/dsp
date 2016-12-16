@@ -1,6 +1,6 @@
 [Think Stats Chapter 6 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2007.html#toc60) (household income)
 
->> The mean is $45455. The median is $51226. In log_10 units, we have Pearson's skew= -0.73, the Skewness= -6.55, and about 45% of households have income below the mean.
+>> The mean is $45455. The median is $51226. In log_10 units, we have Pearson's skew= -0.73, the Skewness= -6.55, and about 45% of households have income below the mean. If the assumed upper bound were larger, then the distribution would extend to the right more, reducing the left-skewedness.
 
 ```python
 import numpy as np
