@@ -18,7 +18,7 @@ print("The Pearson coefficient is ", Pearson)
 Spearman=thinkstats2.SpearmanCorr(df.totalwgt_lb,df.agepreg)
 print("The Spearman coefficient is ", Spearman)
 
-#thinkplot.Scatter(df.totalwgt_lb,df.agepreg)				        	#uncomment these to
+#thinkplot.Scatter(df.totalwgt_lb,df.agepreg)				#uncomment these to
 #thinkplot.Show(xlabel='birthweight',ylabel="Mother's Age")		#see scatterplot
 
 bins=np.arange(10,50,2.5)
