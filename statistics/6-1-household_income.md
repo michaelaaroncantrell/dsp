@@ -37,7 +37,8 @@ def RawMoment(xs, k):
 def CentralMoment(xs, k):
     mean = RawMoment(xs, 1)
     return sum((x - mean)**k for x in xs) / len(xs)
-
-print("{0} percent of households have income below the mean".format(log_cdf.PercentileRank(mean)))
+    
+print(10**mean,10**median)
+print("{0:.0f} percent of households have income below the mean".format(log_cdf.PercentileRank(mean)))
 print("Pearson's skew is {0}".format(3*(mean-median)/std))
 print("The Skewness is", CentralMoment(log_sample,3)/std**3)
