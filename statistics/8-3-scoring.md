@@ -12,7 +12,6 @@
 ```python
 import thinkstats2
 import thinkplot
-
 import math
 import random
 import numpy as np
@@ -25,7 +24,8 @@ def RMSE(estimates, actual):
 def MeanError(estimates, actual):
     errors = [estimate-actual for estimate in estimates]
     return np.mean(errors)
-
+    
+####AUTHORS CODE UP TO HERE####
 def goals(lam):
     t=0
     count=0
