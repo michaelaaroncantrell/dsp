@@ -34,10 +34,8 @@ for n in v:
     print("The 90 percent confidence interval for n=", n, (lower,upper))
     print("The SE with sample size", n, "is", SE)
 thinkplot.preplot(5)
-#Uncomment this to see the sampling distribution of the estimate for lambda. #thinkplot.Show()
-#Note: I don't know how to show multiple plots using the author's modules, and I'm assuming it's not that important to learn.
-
-thinkplot.plot(v,SEs)
 cdf=thinkstats2.Cdf(estimates)
 thinkplot.Cdf(cdf)
+#uncomment this to see the sampling distribution of the estimate for lambda. #thinkplot.Show()
+thinkplot.plot(v,SEs)
 thinkplot.Show(xlabel='sample size', ylabel='SE')
